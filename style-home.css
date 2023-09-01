@@ -1,0 +1,349 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* .container-headng{
+  display: flex;
+justify-content: space-evenly;
+  flex-direction: wrap;
+} */
+.textone{
+  font-family: 'Playfair Display', serif;
+}
+.texttwo{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+ /*MIZUKI:  HEY THERE IT IS MIZUKI, I NEED TO OPEN THE BODY TAG OF RESOURCE FOR IT'S MARGIN FOR THE NAV BAR SO I DID IT. FOR THE IMAGES AND TEXT YOU ADDED PLEASE ADD MARGIN IN EACH CLASS ACCORDING TO IT, LET ME KNOW IF YOU ARE FACING ANY DIFFICULTIES */
+
+.body-resources {
+margin: 0;
+  background-color: #bec0f4;
+}
+/* code for first section*/
+.container-heading{
+  justify-content: space-around;
+  display: flex;
+}
+
+.h1{
+  margin-top: 90px;
+  
+}
+.h2{
+  margin-top: -110px;
+}
+.imag{
+  margin-top: 40px;
+  margin-right: 180px;
+  height: 290px;
+}
+.spotify-play{
+  height: 500px;
+}
+.footer-page{
+  font-family: 'Playfair Display', serif;
+  padding: 10px;
+  font-size: 5px;
+  color: white;
+  background-color:  #7b5da6;
+}
+.section-two{
+  background-color: #bec0f4;
+}
+.section-three{
+  background-color: #bec0f4;
+}
+.spotify{
+  font-size: 50px;
+  color: #7b5da6;
+  /* text-shadow: -3px 2px 0px #f27ea9; */
+  font-family: 'Bagel Fat One', cursive;
+  text-shadow: -3px 3px 0px white;
+  padding: 0%;
+  
+}
+.homeheadingone{
+  text-align: left;
+  margin-left: 130px;
+  font-size: 80px;
+  color: #7b5da6;
+  /* text-shadow: -3px 2px 0px #f27ea9; */
+  font-family: 'Bagel Fat One', cursive;
+  text-shadow: -3px 3px 0px white;
+  
+}
+
+
+/*CODE FOR BUTTONS */
+.button-nav{
+  margin-top: -50px;
+  margin-left: 2px;
+  font-family: 'Roboto', sans-serif;
+ display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.background-color{
+  padding: 70px;
+  /* how to fill the gap up and also the sideways and increase the padding, and can we add images and link in it?*/
+  /* margin-top: 0; */
+  background-color: #9b9ff2;
+  /* margin-left: 330px; */
+  margin: 0 auto;
+  width: 790.5px;
+  /*width: 710px; 
+  height: inherit;*/
+}
+
+p {
+  font-size: 22px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  /* background-color:red ; */
+}
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  min-height: 100vh;
+}
+
+$text: #f27ea9;
+$light-pink: #fff0f0;
+$pink: #ffe9e9;
+$dark-pink: #f9c4d2;
+$pink-border: #b18597;
+$pink-shadow: #ffe3e2;
+
+* {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+ /*
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  background: $bg;
+} */
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  &.learn-more {
+    border: #;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #9b9ff2;
+    border: 2px solid #9b9ff2;
+   /* border-radius: 0.75em; */
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+
+    &.bttn1 {
+    position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+    border: #;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+      padding-left: 110px;
+      padding-right: 110px;
+    /* padding: 1.25em 2em; */
+    background: #9b9ff2;
+    border: 2px solid #9b9ff2;
+   /* border-radius: 0.75em; */
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    }
+      &.bttn2 {
+      position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+    border: #;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+      padding-left: 100.8px;
+      padding-right: 100px;
+    /* padding: 1.25em 2em; */
+    background: #7b5da6;
+    border: 2px solid #7b5da6;
+   /* border-radius: 0.75em; */
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    }
+
+    &.bttn3 {
+    position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+    border: #;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+   padding-left: 110px;
+      padding-right: 110px;
+    background: #9b9ff2;
+    border: 2px solid #9b9ff2;
+/* border-radius: 0.75em; */
+transform-style: preserve-3d;
+transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    }
+   /* &::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #f9c4d2;
+      border-radius: inherit;
+      box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 $pink-shadow;
+      transform: translate3d(0, 0.75em, -1em);
+      transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    }
+    &:hover {
+      background: $pink;
+      transform: translate(0, 0.25em);
+      &::before {
+        box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+        transform: translate3d(0, 0.5em, -1em);
+      }
+    }
+    &:active {
+      background: $pink;
+      transform: translate(0em, 0.75em);
+      &::before {
+        box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+        transform: translate3d(0, 0, -1em);
+      }
+    } */
+  }
+}
+
+
+/* NAV BAR code*/
+.body-home{
+  margin: 0;
+  background-color: #F2ACBF;
+}
+.body-team{
+  margin: 0;
+  background-color: #9b9ff2;
+}
+.body-about{
+  margin: 0;
+  background-color: #9b9ff2;
+}
+.box-gp{
+  
+}
+.container-group {
+  padding: 10px;
+   overflow: hidden;
+  color: white;
+  background-color: #614673;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+    justify-content: space-around;
+  display: flex;
+  top: 0;
+}
+.home-nav-bar{
+  margin-top: 25.2px;
+  color: white;   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.about-nav-bar{
+  margin-top: 25.2px;
+ font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+}
+.resources-nav-bar{
+    margin-top: 25.2px;
+    font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+}
+.meet-the-team-nav-bar{
+  margin-top: 25.2px;
+  font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+
+}
+
+.heading-navbar{
+  color: white;
+  font-size: 45px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  font-family: 'Bagel Fat One', cursive;
+}
+.flex-container {
+  padding: 8px;
+  margin-top: 0;
+  background-color: #7b5da6;
+  display: flex;  justify-content: space-around;
+}
+
+.box {
+  text-decoration: none;
+  background-color: #7b5da6;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+

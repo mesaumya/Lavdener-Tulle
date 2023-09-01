@@ -1,0 +1,206 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Bagel Fat One', cursive;
+
+*/
+.IV-LYAN{
+  margin-left: 60px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* code for nav bar*/
+.container-group {
+  padding: 10px;
+   overflow: hidden;
+  color: white;
+  background-color: #614673;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+    justify-content: space-around;
+  display: flex;
+  top: 0;
+}
+.home-nav-bar{
+  margin-top: 25px;
+  color: white; font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.about-nav-bar{
+  margin-top: 25px;
+ font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+}
+.resources-nav-bar{
+    margin-top: 25px;
+    font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+}
+.meet-the-team-nav-bar{
+    margin-top: 25px;
+  font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+
+}
+
+.heading-navbar{
+  color: white;
+  font-size: 40px;
+  padding-bottom: 8px;
+  margin-top: 0;
+  font-family: 'Playfair Display', serif;
+}
+.flex-container {
+  padding: 8px;
+  margin-top: 0;
+  background-color: #7b5da6;
+  display: flex;  justify-content: space-around;
+}
+
+.box {
+  text-decoration: none;
+  background-color: #7b5da6;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+ MIZUKI:  HEY THERE IT IS MIZUKI, I NEED TO OPEN THE BODY TAG OF RESOURCE FOR IT'S MARGIN FOR THE NAV BAR SO I DID IT. FOR THE IMAGES AND TEXT YOU ADDED PLEASE ADD MARGIN IN EACH CLASS ACCORDING TO IT, LET ME KNOW IF YOU ARE FACING ANY DIFFICULTIES */
+
+.body-resources {
+  margin: 0;
+  background-color: #9b9ff2;
+}
+/* RESOURCES 
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+.title { 
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #F2ACBF;
+  text-shadow: 3px 4px #F27EA9;
+  font-size: 80px;
+}
+
+.introduction {
+  font-family: 'Roboto', sans-serif;
+  border: 5px solid;
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 300px;
+  margin: auto;
+  color: #F2ACBF;
+}
+
+/* brands */
+/* video in about page */
+.video{
+  border: solid 10px #F2ACBF;
+  margin: 30px;
+}
+.instagram-media{
+  display: flex;
+  justify-content: center;
+  width: 350px;
+}
+.insta{
+  display: flex;
+  justify-content: center;
+}
+blockquote{
+  display: flex;
+  justify-content: center;
+}
+h3{
+  font-family: 'Playfair Display', serif;
+  border: solid #9B9FF2 5px;
+  background-color: #F27EA9;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+.about-img{
+   display: block;
+margin-left: auto;
+margin-right: auto;
+/* width: 30%;
+  border: #614673 solid 4px; */
+  --color:  #614673; /* the border color */
+  --border: 10px;   /* the border thickness*/
+  --offset: 20px;   /* control the offset*/
+  --gap: 5px;       /* the gap on hover */
+  
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+  --_o: calc(3*var(--offset));
+  padding: 
+    calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: 
+    linear-gradient(      var(--_c)) var(--_o) var(--_o), 
+    linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  filter: grayscale(.4);
+  transition: .5s;
+  cursor: pointer;
+}
+.about-img:hover{
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+}
+p{
+  margin: 10px;
+  font-size: 1.2em;
+}
+#fact{
+  border: 2px;
+}
+/* .text-block{
+  
+  font-family: 'Playfair Display', serif;
+  border: solid #9B9FF2 5px;
+  background-color: #F2ACBF;
+  color: white;
+  display: block;
+  padding: 10px;
+  border-style: outset;
+  margin: 10px;
+} */
+#myButton{
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+  
+  //box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7B5DA6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+#myButton:hover {background-color: #614673;}
+#myButton:active {
+  background-color: #614673;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#myButton{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+

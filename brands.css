@@ -1,0 +1,175 @@
+/* NAV BAR code*/
+.body-home{
+  margin: 0;
+  background-color: #F2ACBF;
+}
+.body-team{
+  margin: 0;
+  background-color: #9b9ff2;
+}
+.body-about{
+  margin: 0;
+  background-color: #9b9ff2;
+}
+.box-gp{
+  
+}
+.container-group {
+  padding: 10px;
+   overflow: hidden;
+  color: white;
+  background-color: #614673;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+    justify-content: space-around;
+  display: flex;
+  top: 0;
+}
+.home-nav-bar{
+  margin-top: 25.2px;
+  color: white;   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.about-nav-bar{
+  margin-top: 25.2px;
+ font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+}
+.resources-nav-bar{
+    margin-top: 25.2px;
+    font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+}
+.meet-the-team-nav-bar{
+  margin-top: 25.2px;
+  font-size: 20px;   color: white; font-family: 'Roboto', sans-serif;
+
+}
+
+.heading-navbar{
+  color: white;
+  font-size: 45px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  font-family: 'Bagel Fat One', cursive;
+}
+.flex-container {
+  padding: 8px;
+  margin-top: 0;
+  background-color: #7b5da6;
+  display: flex;  justify-content: space-around;
+}
+
+.box {
+  text-decoration: none;
+  background-color: #7b5da6;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SYRO OVERLAY EFFECT */
+.syro-profile {
+    position: relative;
+    width: 40%;
+  }
+
+  .syro-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: relative;
+    width: 40%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #9B9FF2;
+  }
+
+  .syro-text {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-40%, -40%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+    text-align: center;
+  }
+
+  .syro-profile:hover .syro-overlay {
+    opacity: 1;
+  }
+
+/* edwin overlay effect */
+.edwin-profile {
+    position: relative;
+    width: 40%;
+  }
+
+  .edwin-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: relative;
+    width: 40%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #9B9FF2;
+  }
+
+  .edwin-text {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-40%, -40%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+    text-align: center;
+  }
+
+  .edwin-profile:hover .edwin-overlay {
+    opacity: 1;
+  }
+
+/* ajo overlay effect */
+.ajo-profile {
+    position: relative;
+    width: 40%;
+  }
+
+  .ajo-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: relative;
+    width: 40%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #9B9FF2;
+  }
+
+  .ajo-text {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-40%, -40%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+    text-align: center;
+  }
+
+  .ajo-profile:hover .ajo-overlay {
+    opacity: 1;
+  }
+
+.brands-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
